@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Clean-Playlists-Frontend</Name>
+  <Repository>ghcr.io/sfn-git/clean-playlist-2-frontend:main</Repository>
+  <Registry>https://github.com/sfn-git/clean-playlist-2-frontend/pkgs/container/clean-playlist-2-frontend/622754729?tag=main</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/sfn-git/clean-playlist-2/issues</Support>
+  <Project>https://github.com/sfn-git/clean-playlist-2</Project>
+  <Overview>A tool that removes or replaces explicit songs from a Spotify playlist!</Overview>
+  <Category>Tools: Other: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8081]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/sfn-git/clean-playlist-2/refs/heads/main/photos/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1766691030</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>Spotify Developer Account (See https://github.com/sfn-git/clean-playlist-2/tree/main?tab=readme-ov-file#requirements)&#xD;
+Clean-Playlists-Backend</Requires>
+  <Config Name="API Port" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8081</Config>
+  <Config Name="VITE_API_URL" Target="VITE_API_URL" Default="" Mode="" Description="Base URL of the backend application. Example https://backend.com" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <TailscaleStateDir/>
+</Container>
