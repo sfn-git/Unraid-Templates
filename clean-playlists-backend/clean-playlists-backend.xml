@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/sfn-git/clean-playlist-2/issues</Support>
+  <Support>https://forums.unraid.net/topic/196035-support-sfn-git-docker-templates/</Support>
   <Project>https://github.com/sfn-git/clean-playlist-2</Project>
   <Overview>A tool that removes or replaces explicit songs from a Spotify playlist!</Overview>
   <Category>Tools: Other: Status:Beta</Category>
